@@ -1,6 +1,10 @@
 # Lightin
 Just a ghost theme based on the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
+### How To Use It
+Modified some codes list below to fit your needs  
+defaults: digital ocean links inside section inside footer
+
 ## Copyright & License
 
 Copyright (c) 2013-2014 Ghost Foundation - Released under the MIT License.

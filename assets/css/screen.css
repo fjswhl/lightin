@@ -754,7 +754,7 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
     margin: 0;
-    font-size: 0.9em;
+    font-size: 1.1em;
     line-height: 1.7em;
 }
 
@@ -1776,6 +1776,33 @@ body:not(.post-template) .post-title {
                 transform: translateY(-5px) rotate(-90deg);
     }
 }
+
+/* ==========================================================================
+   13. Customize
+   ========================================================================== */
+.navigation__item {
+  display: inline-block;
+  margin: 5px 10px 0 0;
+  line-height: 1em; }
+  .navigation__item a {
+    display: block;
+    position: relative;
+    border-color: #FFF;
+    opacity: .8; }
+    .navigation__item a:hover {
+      color: #FFF;
+      border-color: #FFF;
+      opacity: 1; }
+
+.navigation--social a {
+  border: 0px;
+  padding: 6px 8px 6px 9px; }
+  .navigation__item a .label {
+    display: none; }
+  .navigation__item a .icon {
+    display: block;
+    font-size: 1.7em; }
+
 
 
 /* ==========================================================================
