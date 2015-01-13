@@ -21,15 +21,6 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
-    <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?dd254997470235f0ae5d6eba50685693";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
 
 </head>
 <body class="{{body_class}}">
@@ -38,8 +29,9 @@ var _hmt = _hmt || [];
     {{{body}}}
 
     <footer class="site-footer clearfix">
+         <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a>,感谢 <a href="https://www.digitalocean.com/?refcode=ab77d6daff97"><u>Digital Ocean</u></a> 为本站提供的 VPS 服务</section>
+
          <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-         <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a>,感谢<a href="https://www.digitalocean.com/?refcode=ab77d6daff97"><u>Digital Ocean</u></a>为本站提供的 VPS 服务</section>
     </footer>
 
     {{! Ghost outputs important scripts and data with this tag }}
@@ -49,6 +41,15 @@ var _hmt = _hmt || [];
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?dd254997470235f0ae5d6eba50685693";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
 
 </body>
 </html>
