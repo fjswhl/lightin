@@ -713,6 +713,13 @@ margin on the iframe, cause it breaks stuff. */
     animation-delay: 0.1s;
 }
 
+.home-template .page-social {
+    -webkit-animation: fade-in-up 0.9s;
+    animation: fade-in-up 0.9s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
@@ -1740,6 +1747,31 @@ body:not(.post-template) .post-title {
         opacity: 0;
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-0px);
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
     }
     100% {
         opacity: 1;
