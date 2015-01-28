@@ -38,7 +38,8 @@ html {
    -webkit-text-size-adjust: 100%;
 }
 body { margin: 0; }
-a { background: transparent;
+a {
+    text-decoration: none;
     color: #bf1827;}
 a:hover {
     color: #7b0f19;
