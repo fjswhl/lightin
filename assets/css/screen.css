@@ -116,6 +116,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     margin: 5px 10px 0 0;
     line-height: 1em; }
 .navigation__item a {
+    color: rgb(122,122,122);
     display: block;
     position: relative;
     border-color: #FFF;
