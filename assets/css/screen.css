@@ -928,6 +928,14 @@ body:not(.post-template) .post-title {
     font-size: 1.5rem;
 }
 
+.post-content ul {
+    font-size: 1.5rem;
+}
+
+.code-toolbar {
+    margin-bottom: 2.5rem;
+}
+
 .post-content
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */
