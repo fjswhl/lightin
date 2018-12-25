@@ -216,7 +216,7 @@ body {
     font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
-    line-height: 1.75em;
+    line-height: 1.4em;
     color: #666666;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
@@ -243,30 +243,30 @@ h4, h5, h6 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
-    font-size: 3.6rem;
+    font-size: 2.88rem;
     letter-spacing: -1px;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
 
 h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h5 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 h6 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 
@@ -782,7 +782,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 3rem;
 }
 
 .post-title a {
@@ -791,8 +791,8 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
     margin: 0;
-    font-size: 1.0em;
-    line-height: 1.7em;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
 }
 
 .read-more {
@@ -891,10 +891,6 @@ body:not(.post-template) .post-title {
     margin-bottom: 0;
 }
 
-.post-template .post-meta {
-    margin: 0;
-}
-
 .post-template .post-date {
     padding: 0;
     margin: 0;
@@ -929,8 +925,10 @@ body:not(.post-template) .post-title {
 }
 
 .post-content p {
-    font-size: 1.57rem;
+    font-size: 1.5rem;
 }
+
+.post-content
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */
 .post-content .full-img {
@@ -1338,10 +1336,10 @@ body:not(.post-template) .post-title {
 .site-footer {
     position: relative;
     margin: 8rem 0 0 0;
-    padding: 0.5rem 15px;
+    padding: 1rem 15px;
     border-top: #EBF2F6 1px solid;
     font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.75em;
     color: #BBC7CC;
 }
@@ -1358,7 +1356,7 @@ body:not(.post-template) .post-title {
 
 .poweredby {
     display: block;
-    width: 50%;
+    width: 80%;
     text-align: center;
     margin:0 auto
 }
@@ -1366,7 +1364,7 @@ body:not(.post-template) .post-title {
 .copyright {
     display: block;
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin:0 auto
 }
 
